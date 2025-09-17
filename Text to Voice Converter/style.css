@@ -204,7 +204,6 @@
             transform: translateY(-3px);
             box-shadow: 0 6px 16px rgba(37, 117, 252, 0.4);
         }
-
         .btn-tertiary:active {
             transform: translateY(0);
         }
@@ -224,7 +223,6 @@
             align-items: center;
             gap: 10px;
         }
-
         .slider-container {
             margin-bottom: 15px;
         }
@@ -275,16 +273,17 @@
         }
 
         /* Animation */
-        @keyframes pulse {
+     /*   @keyframes pulse {
             0% { transform: scale(1); }
             50% { transform: scale(1.05); }
             100% { transform: scale(1); }
         }
 
         .pulse {
-            animation: pulse 1.5s infinite;
-        }
-
+            animation: pulse 2.5s infinite;
+        } */
+     
+     
         /* Responsive Design */
         @media (max-width: 768px) {
             .container {
