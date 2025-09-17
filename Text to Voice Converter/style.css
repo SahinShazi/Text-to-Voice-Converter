@@ -170,6 +170,19 @@
             background: linear-gradient(45deg, #ff2963, #ff5e8e);
             box-shadow: 0 4px 12px rgba(255, 41, 99, 0.3);
         }
+        
+        .btn-primary::before {
+            animation: lighting 1.9s infinite;
+        }
+        
+            @keyframes lighting {
+            0% {
+                left: -100%;
+            }
+            100% {
+                left: 100%;
+            }
+        }
 
         .btn-primary:hover {
             transform: translateY(-3px);
