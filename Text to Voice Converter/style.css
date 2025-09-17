@@ -17,12 +17,7 @@
         .container {
             width: 100%;
             max-width: 800px;
-            background: rgba(255, 255, 255, 0.08);
-            backdrop-filter: blur(10px);
-            border-radius: 20px;
             padding: 40px;
-            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
-            border: 1px solid rgba(255, 255, 255, 0.1);
             overflow: hidden;
             position: relative;
         }
@@ -34,7 +29,6 @@
             left: -50%;
             width: 200%;
             height: 200%;
-            background: radial-gradient(circle, rgba(255, 41, 99, 0.1) 0%, transparent 70%);
             transform: rotate(30deg);
             z-index: -1;
         }
@@ -212,34 +206,6 @@
         }
 
         .btn-tertiary:active {
-            transform: translateY(0);
-        }
-
-        .btn-download {
-            background: linear-gradient(45deg, #25d366, #2fcb52);
-            box-shadow: 0 4px 12px rgba(37, 211, 102, 0.3);
-        }
-
-        .btn-download:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 6px 16px rgba(37, 211, 102, 0.4);
-        }
-
-        .btn-download:active {
-            transform: translateY(0);
-        }
-
-        .btn-stop {
-            background: linear-gradient(45deg, #ff0000, #ff5252);
-            box-shadow: 0 4px 12px rgba(255, 0, 0, 0.3);
-        }
-
-        .btn-stop:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 6px 16px rgba(255, 0, 0, 0.4);
-        }
-
-        .btn-stop:active {
             transform: translateY(0);
         }
 
