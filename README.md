@@ -10,7 +10,6 @@ A simple and intuitive text-to-speech converter built with modern web technologi
 - **Volume Control**: Adjust playback volume to your preference
 - **Pitch Adjustment**: Modify voice pitch for different tones
 - **Pause/Resume**: Control playback with pause and resume functionality
-- **Download Audio**: Save generated speech as audio files
 - **Responsive Design**: Works seamlessly across desktop, tablet, and mobile devices
 - **Clean UI**: Modern and user-friendly interface
 
@@ -21,6 +20,10 @@ A simple and intuitive text-to-speech converter built with modern web technologi
 ## 📸 Screenshots
 
 ![Text-to-Voice Converter Interface](screenshot1.jpg)
+
+### For Desktop 👇
+![Text-to-Voice Converter Interface](screenshot2.jpg)
+
 
 ## 🛠️ Technologies Used
 
@@ -63,7 +66,6 @@ A simple and intuitive text-to-speech converter built with modern web technologi
    - Modify pitch if desired
 4. **Convert**: Click the "Speak" button to hear your text
 5. **Control Playback**: Use pause, resume, and stop buttons as needed
-6. **Download**: Save the generated audio file to your device
 
 ## 📁 Project Structure
 
@@ -145,7 +147,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Sahin Shazi**
 - GitHub: [@SahinShazi](https://github.com/SahinShazi)
-- Email: [your-email@example.com](mailto:your-email@example.com)
+- Email: [sahin.enam10@gmail.com](mailto:sahin.enam10@gmail.com)
 
 ## 🙏 Acknowledgments
 
@@ -167,5 +169,5 @@ If you encounter any issues or have questions:
 
 ![GitHub stars](https://img.shields.io/github/stars/SahinShazi/Text-to-Voice-Converter?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/SahinShazi/Text-to-Voice-Converter?style=social)
-![GitHub issues](https://img.shields.io/github/issues/SahinShazi/Text-to-Voice-Converter)
+![GitHub issues](https://img.shields.io/github/issues/SahinShazi/Text-to-Voice-Converter) 
 ![GitHub license](https://img.shields.io/github/license/SahinShazi/Text-to-Voice-Converter)
