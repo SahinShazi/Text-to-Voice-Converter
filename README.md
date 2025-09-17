@@ -20,7 +20,7 @@ A simple and intuitive text-to-speech converter built with modern web technologi
 
 ## 📸 Screenshots
 
-![Text-to-Voice Converter Interface](screenshot1.png)
+![Text-to-Voice Converter Interface](screenshot1.jpg)
 
 ## 🛠️ Technologies Used
 
