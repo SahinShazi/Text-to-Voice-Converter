@@ -56,25 +56,6 @@ document.getElementById("pauseButton").addEventListener("click", () => {
   }
 });
 
-document.getElementById("resumeButton").addEventListener("click", () => {
-  if (window.speechSynthesis.paused) {
-    window.speechSynthesis.resume();
-  }
-});
-
-document.getElementById("stopButton").addEventListener("click", () => {
-  window.speechSynthesis.cancel();
-});
-
-document.getElementById("downloadButton").addEventListener("click", () => {
-  if (speech.text.trim() === '') {
-    alert('Please enter some text first.');
-    return;
-  }
-  
-  // In a real implementation, this would use a TTS API to generate audio
-  alert('Audio download feature would be implemented here with a backend service or additional JavaScript libraries.');
-});
 
 // Settings Sliders
 const rateSlider = document.getElementById("rateSlider");
